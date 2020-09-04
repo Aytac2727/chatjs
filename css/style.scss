@@ -1,0 +1,41 @@
+#chat {
+    width: 350px;
+    border: 1px solid #ddd;
+    position: fixed;
+    right: 30px;
+    bottom: 0;
+    z-index: 5;
+    .header {
+        padding: 5px;
+        background: rgb(30, 30, 216);
+        color: white;
+        #close-ico {
+            cursor: pointer;
+        }
+       
+        .header-content {
+          padding: 15px 0;
+        }
+    }
+
+    main {
+        height: 280px;
+        background-color: #fff;
+    }
+}
+
+#mini-chat {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:rgb(30, 30, 216);
+    padding:12px ;
+    position: fixed;
+    bottom:20px ;
+    right: 35px;
+
+    svg {
+        fill: #fff;
+    }
+}

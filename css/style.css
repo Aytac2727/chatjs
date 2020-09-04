@@ -1,0 +1,44 @@
+#chat {
+  width: 350px;
+  border: 1px solid #ddd;
+  position: fixed;
+  right: 30px;
+  bottom: 0;
+  z-index: 5;
+}
+
+#chat .header {
+  padding: 5px;
+  background: #1e1ed8;
+  color: white;
+}
+
+#chat .header #close-ico {
+  cursor: pointer;
+}
+
+#chat .header .header-content {
+  padding: 15px 0;
+}
+
+#chat main {
+  height: 280px;
+  background-color: #fff;
+}
+
+#mini-chat {
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #1e1ed8;
+  padding: 12px;
+  position: fixed;
+  bottom: 20px;
+  right: 35px;
+}
+
+#mini-chat svg {
+  fill: #fff;
+}
+/*# sourceMappingURL=style.css.map */
